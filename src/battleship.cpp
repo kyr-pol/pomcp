@@ -368,13 +368,13 @@ float BATTLESHIP::value(STATE& ostate) const
 {
     const BATTLESHIP_STATE& state = safe_cast<const BATTLESHIP_STATE&>(ostate);
     
-    return 100-state.NumRemaining;
+    return XSize * YSize-state.NumRemaining;
 }
 
 float BATTLESHIP::value2(STATE& ostate,int action) const
 {
     const BATTLESHIP_STATE& state = safe_cast<const BATTLESHIP_STATE&>(ostate);
-    return 100-state.NumRemaining;
+    return  XSize * YSize-state.NumRemaining;
 }
 
 
