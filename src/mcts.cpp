@@ -279,7 +279,7 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
                 num_so_far[a]++;
             }
             else if (Params.heur==1)
-                delayedReward = 0;
+                delayedReward = 12;
                 //delayedReward = 40;
             else if (Params.heur==2)
                 // MDP
