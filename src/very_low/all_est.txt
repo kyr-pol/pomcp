@@ -1,0 +1,8 @@
+Simulations	Runs	Undiscounted return	Undiscounted error	Discounted return	Discounted error	Time
+131072	20	7.55	1.06648	7.55	1.06648	1.56094
+Simulations	Runs	Undiscounted return	Undiscounted error	Discounted return	Discounted error	Time
+131072	20	7.55	1.06648	7.55	1.06648	1.56094
+Simulations	Runs	Undiscounted return	Undiscounted error	Discounted return	Discounted error	Time
+131072	20	7.55	0.844023	7.55	0.844023	1.56998
+Simulations	Runs	Undiscounted return	Undiscounted error	Discounted return	Discounted error	Time
+131072	20	9.75	1.15299	9.75	1.15299	1.46717

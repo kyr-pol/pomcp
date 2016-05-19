@@ -1,0 +1,6 @@
+Simulations	Runs	Undiscounted return	Undiscounted error	Discounted return	Discounted error	Time
+1024	8	0	0	0	0	0.454155
+2048	8	0	0	0	0	1.30774
+4096	8	0	0	0	0	3.28421
+8192	8	0.5	0.467707	0.5	0.467707	7.20351
+16384	8	0	0	0	0	15.2178

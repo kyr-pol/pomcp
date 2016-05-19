@@ -1,0 +1,381 @@
+Initialising fast UCB table... done
+Main runs
+Starting run 1 with 1024 simulations... 
+Terminated
+Discounted return = 43, average = 43
+Undiscounted return = 43, average = 43
+Starting run 2 with 1024 simulations... 
+Terminated
+Discounted return = 28, average = 35.5
+Undiscounted return = 28, average = 35.5
+Starting run 3 with 1024 simulations... 
+Terminated
+Discounted return = 37, average = 36
+Undiscounted return = 37, average = 36
+Starting run 4 with 1024 simulations... 
+Terminated
+Discounted return = 44, average = 38
+Undiscounted return = 44, average = 38
+Starting run 5 with 1024 simulations... 
+Terminated
+Discounted return = 39, average = 38.2
+Undiscounted return = 39, average = 38.2
+Starting run 6 with 1024 simulations... 
+Terminated
+Discounted return = 40, average = 38.5
+Undiscounted return = 40, average = 38.5
+Starting run 7 with 1024 simulations... 
+Terminated
+Discounted return = 40, average = 38.7143
+Undiscounted return = 40, average = 38.7143
+Starting run 8 with 1024 simulations... 
+Terminated
+Discounted return = 41, average = 39
+Undiscounted return = 41, average = 39
+Simulations = 1024
+Runs = 8
+Undiscounted return = 39 +- 1.63936
+Discounted return = 39 +- 1.63936
+Time = 1.54198
+Starting run 1 with 2048 simulations... 
+Terminated
+Discounted return = 46, average = 46
+Undiscounted return = 46, average = 46
+Starting run 2 with 2048 simulations... 
+Terminated
+Discounted return = 45, average = 45.5
+Undiscounted return = 45, average = 45.5
+Starting run 3 with 2048 simulations... 
+Out of particles, finishing episode with SelectRandom
+Terminated
+Discounted return = 16, average = 35.6667
+Undiscounted return = 16, average = 35.6667
+Starting run 4 with 2048 simulations... 
+Terminated
+Discounted return = 40, average = 36.75
+Undiscounted return = 40, average = 36.75
+Starting run 5 with 2048 simulations... 
+Terminated
+Discounted return = 51, average = 39.6
+Undiscounted return = 51, average = 39.6
+Starting run 6 with 2048 simulations... 
+Terminated
+Discounted return = 37, average = 39.1667
+Undiscounted return = 37, average = 39.1667
+Starting run 7 with 2048 simulations... 
+Terminated
+Discounted return = 31, average = 38
+Undiscounted return = 31, average = 38
+Starting run 8 with 2048 simulations... 
+Terminated
+Discounted return = 33, average = 37.375
+Undiscounted return = 33, average = 37.375
+Simulations = 2048
+Runs = 8
+Undiscounted return = 37.375 +- 3.62689
+Discounted return = 37.375 +- 3.62689
+Time = 2.84314
+Starting run 1 with 4096 simulations... 
+Terminated
+Discounted return = 66, average = 66
+Undiscounted return = 66, average = 66
+Starting run 2 with 4096 simulations... 
+Terminated
+Discounted return = 36, average = 51
+Undiscounted return = 36, average = 51
+Starting run 3 with 4096 simulations... 
+Terminated
+Discounted return = 48, average = 50
+Undiscounted return = 48, average = 50
+Starting run 4 with 4096 simulations... 
+Terminated
+Discounted return = 37, average = 46.75
+Undiscounted return = 37, average = 46.75
+Starting run 5 with 4096 simulations... 
+Terminated
+Discounted return = 49, average = 47.2
+Undiscounted return = 49, average = 47.2
+Starting run 6 with 4096 simulations... 
+Terminated
+Discounted return = 43, average = 46.5
+Undiscounted return = 43, average = 46.5
+Starting run 7 with 4096 simulations... 
+Terminated
+Discounted return = 57, average = 48
+Undiscounted return = 57, average = 48
+Starting run 8 with 4096 simulations... 
+Terminated
+Discounted return = 57, average = 49.125
+Undiscounted return = 57, average = 49.125
+Simulations = 4096
+Runs = 8
+Undiscounted return = 49.125 +- 3.46156
+Discounted return = 49.125 +- 3.46156
+Time = 5.22588
+Starting run 1 with 8192 simulations... 
+Terminated
+Discounted return = 56, average = 56
+Undiscounted return = 56, average = 56
+Starting run 2 with 8192 simulations... 
+Terminated
+Discounted return = 53, average = 54.5
+Undiscounted return = 53, average = 54.5
+Starting run 3 with 8192 simulations... 
+Terminated
+Discounted return = 44, average = 51
+Undiscounted return = 44, average = 51
+Starting run 4 with 8192 simulations... 
+Terminated
+Discounted return = 55, average = 52
+Undiscounted return = 55, average = 52
+Starting run 5 with 8192 simulations... 
+Terminated
+Discounted return = 51, average = 51.8
+Undiscounted return = 51, average = 51.8
+Starting run 6 with 8192 simulations... 
+Terminated
+Discounted return = 61, average = 53.3333
+Undiscounted return = 61, average = 53.3333
+Starting run 7 with 8192 simulations... 
+Terminated
+Discounted return = 39, average = 51.2857
+Undiscounted return = 39, average = 51.2857
+Starting run 8 with 8192 simulations... 
+Terminated
+Discounted return = 50, average = 51.125
+Undiscounted return = 50, average = 51.125
+Simulations = 8192
+Runs = 8
+Undiscounted return = 51.125 +- 2.30107
+Discounted return = 51.125 +- 2.30107
+Time = 10.4901
+Starting run 1 with 16384 simulations... 
+Terminated
+Discounted return = 59, average = 59
+Undiscounted return = 59, average = 59
+Starting run 2 with 16384 simulations... 
+Terminated
+Discounted return = 47, average = 53
+Undiscounted return = 47, average = 53
+Starting run 3 with 16384 simulations... 
+Terminated
+Discounted return = 51, average = 52.3333
+Undiscounted return = 51, average = 52.3333
+Starting run 4 with 16384 simulations... 
+Terminated
+Discounted return = 63, average = 55
+Undiscounted return = 63, average = 55
+Starting run 5 with 16384 simulations... 
+Terminated
+Discounted return = 60, average = 56
+Undiscounted return = 60, average = 56
+Starting run 6 with 16384 simulations... 
+Out of particles, finishing episode with SelectRandom
+Terminated
+Discounted return = 12, average = 48.6667
+Undiscounted return = 12, average = 48.6667
+Starting run 7 with 16384 simulations... 
+Terminated
+Discounted return = 57, average = 49.8571
+Undiscounted return = 57, average = 49.8571
+Starting run 8 with 16384 simulations... 
+Terminated
+Discounted return = 53, average = 50.25
+Undiscounted return = 53, average = 50.25
+Simulations = 16384
+Runs = 8
+Undiscounted return = 50.25 +- 5.39314
+Discounted return = 50.25 +- 5.39314
+Time = 20.2944
+Initialising fast UCB table... done
+Main runs
+Starting run 1 with 1024 simulations... 
+Terminated
+Discounted return = 18, average = 18
+Undiscounted return = 18, average = 18
+Starting run 2 with 1024 simulations... 
+Terminated
+Discounted return = 18, average = 18
+Undiscounted return = 18, average = 18
+Starting run 3 with 1024 simulations... 
+Terminated
+Discounted return = 9, average = 15
+Undiscounted return = 9, average = 15
+Starting run 4 with 1024 simulations... 
+Out of particles, finishing episode with SelectRandom
+Terminated
+Discounted return = 0, average = 11.25
+Undiscounted return = 0, average = 11.25
+Starting run 5 with 1024 simulations... 
+Terminated
+Discounted return = 17, average = 12.4
+Undiscounted return = 17, average = 12.4
+Starting run 6 with 1024 simulations... 
+Out of particles, finishing episode with SelectRandom
+Terminated
+Discounted return = 10, average = 12
+Undiscounted return = 10, average = 12
+Starting run 7 with 1024 simulations... 
+Terminated
+Discounted return = 19, average = 13
+Undiscounted return = 19, average = 13
+Starting run 8 with 1024 simulations... 
+Terminated
+Discounted return = 6, average = 12.125
+Undiscounted return = 6, average = 12.125
+Simulations = 1024
+Runs = 8
+Undiscounted return = 12.125 +- 2.30107
+Discounted return = 12.125 +- 2.30107
+Time = 0.379267
+Starting run 1 with 2048 simulations... 
+Terminated
+Discounted return = 23, average = 23
+Undiscounted return = 23, average = 23
+Starting run 2 with 2048 simulations... 
+Out of particles, finishing episode with SelectRandom
+Terminated
+Discounted return = 1, average = 12
+Undiscounted return = 1, average = 12
+Starting run 3 with 2048 simulations... 
+Terminated
+Discounted return = 8, average = 10.6667
+Undiscounted return = 8, average = 10.6667
+Starting run 4 with 2048 simulations... 
+Terminated
+Discounted return = 15, average = 11.75
+Undiscounted return = 15, average = 11.75
+Starting run 5 with 2048 simulations... 
+Terminated
+Discounted return = 18, average = 13
+Undiscounted return = 18, average = 13
+Starting run 6 with 2048 simulations... 
+Terminated
+Discounted return = 18, average = 13.8333
+Undiscounted return = 18, average = 13.8333
+Starting run 7 with 2048 simulations... 
+Terminated
+Discounted return = 13, average = 13.7143
+Undiscounted return = 13, average = 13.7143
+Starting run 8 with 2048 simulations... 
+Terminated
+Discounted return = 24, average = 15
+Undiscounted return = 24, average = 15
+Simulations = 2048
+Runs = 8
+Undiscounted return = 15 +- 2.53722
+Discounted return = 15 +- 2.53722
+Time = 0.950788
+Starting run 1 with 4096 simulations... 
+Terminated
+Discounted return = 11, average = 11
+Undiscounted return = 11, average = 11
+Starting run 2 with 4096 simulations... 
+Terminated
+Discounted return = 9, average = 10
+Undiscounted return = 9, average = 10
+Starting run 3 with 4096 simulations... 
+Terminated
+Discounted return = 20, average = 13.3333
+Undiscounted return = 20, average = 13.3333
+Starting run 4 with 4096 simulations... 
+Terminated
+Discounted return = 26, average = 16.5
+Undiscounted return = 26, average = 16.5
+Starting run 5 with 4096 simulations... 
+Out of particles, finishing episode with SelectRandom
+Terminated
+Discounted return = 0, average = 13.2
+Undiscounted return = 0, average = 13.2
+Starting run 6 with 4096 simulations... 
+Terminated
+Discounted return = 11, average = 12.8333
+Undiscounted return = 11, average = 12.8333
+Starting run 7 with 4096 simulations... 
+Terminated
+Discounted return = 8, average = 12.1429
+Undiscounted return = 8, average = 12.1429
+Starting run 8 with 4096 simulations... 
+Terminated
+Discounted return = 20, average = 13.125
+Undiscounted return = 20, average = 13.125
+Simulations = 4096
+Runs = 8
+Undiscounted return = 13.125 +- 2.75248
+Discounted return = 13.125 +- 2.75248
+Time = 2.76132
+Starting run 1 with 8192 simulations... 
+Terminated
+Discounted return = 21, average = 21
+Undiscounted return = 21, average = 21
+Starting run 2 with 8192 simulations... 
+Terminated
+Discounted return = 14, average = 17.5
+Undiscounted return = 14, average = 17.5
+Starting run 3 with 8192 simulations... 
+Terminated
+Discounted return = 19, average = 18
+Undiscounted return = 19, average = 18
+Starting run 4 with 8192 simulations... 
+Terminated
+Discounted return = 25, average = 19.75
+Undiscounted return = 25, average = 19.75
+Starting run 5 with 8192 simulations... 
+Out of particles, finishing episode with SelectRandom
+Terminated
+Discounted return = 1, average = 16
+Undiscounted return = 1, average = 16
+Starting run 6 with 8192 simulations... 
+Terminated
+Discounted return = 15, average = 15.8333
+Undiscounted return = 15, average = 15.8333
+Starting run 7 with 8192 simulations... 
+Terminated
+Discounted return = 22, average = 16.7143
+Undiscounted return = 22, average = 16.7143
+Starting run 8 with 8192 simulations... 
+Terminated
+Discounted return = 28, average = 18.125
+Undiscounted return = 28, average = 18.125
+Simulations = 8192
+Runs = 8
+Undiscounted return = 18.125 +- 2.76381
+Discounted return = 18.125 +- 2.76381
+Time = 5.98888
+Starting run 1 with 16384 simulations... 
+Terminated
+Discounted return = 29, average = 29
+Undiscounted return = 29, average = 29
+Starting run 2 with 16384 simulations... 
+Terminated
+Discounted return = 34, average = 31.5
+Undiscounted return = 34, average = 31.5
+Starting run 3 with 16384 simulations... 
+Terminated
+Discounted return = 22, average = 28.3333
+Undiscounted return = 22, average = 28.3333
+Starting run 4 with 16384 simulations... 
+Terminated
+Discounted return = 23, average = 27
+Undiscounted return = 23, average = 27
+Starting run 5 with 16384 simulations... 
+Terminated
+Discounted return = 41, average = 29.8
+Undiscounted return = 41, average = 29.8
+Starting run 6 with 16384 simulations... 
+Terminated
+Discounted return = 38, average = 31.1667
+Undiscounted return = 38, average = 31.1667
+Starting run 7 with 16384 simulations... 
+Terminated
+Discounted return = 27, average = 30.5714
+Undiscounted return = 27, average = 30.5714
+Starting run 8 with 16384 simulations... 
+Terminated
+Discounted return = 28, average = 30.25
+Undiscounted return = 28, average = 30.25
+Simulations = 16384
+Runs = 8
+Undiscounted return = 30.25 +- 2.26212
+Discounted return = 30.25 +- 2.26212
+Time = 13.03

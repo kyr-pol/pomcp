@@ -1,0 +1,679 @@
+Using special layout for rocksample(7, 8)
+Using special layout for rocksample(7, 8)
+Initialising fast UCB table... done
+Main runs
+Starting run 1 with 1024 simulations... 
+Move 0
+0.120266 
+Move 1
+0.355852 
+Move 2
+0.153991 
+Move 3
+0.221803 
+Move 4
+0.101414 
+Move 5
+-0.0959386 
+Move 6
+-0.00715674 
+Move 7
+0.178364 
+Move 8
+0.165297 
+Move 9
+0.304902 
+Move 10
+0.0997092 
+Move 11
+-0.170536 
+Move 12
+-0.0744933 
+Move 13
+-0.308229 
+Move 14
+-0.384365 
+Move 15
+-0.313597 
+Move 16
+0.0350801 
+Move 17
+0.306196 
+Move 18
+0.369357 
+Move 19
+0.485763 
+Move 20
+0.791784 
+Move 21
+0.388662 
+Move 22
+-0.153901 
+Move 23
+-0.0895238 
+Move 24
+0.226583 
+Move 25
+0.389563 
+Move 26
+-0.526209 
+Move 27
+-0.407257 
+Move 28
+-0.45002 
+Move 29
+-0.361668 
+Move 30
+0.035986 
+Move 31
+-0.0287896 
+Move 32
+0.466848 
+Move 33
+1.49957 
+Move 34
+3.07867 
+Move 35
+4.55439 
+Terminated
+Average Rol
+0 0.365384 0.22844 0.165362 0.803597 0 0 0 0 0 
+Discounted return = -1.23604, average = -1.23604
+Undiscounted return = 10, average = 10
+Starting run 2 with 1024 simulations... 
+Move 0
+0.127984 
+Move 1
+0.132605 
+Move 2
+0.283569 
+Move 3
+0.533251 
+Move 4
+0.97839 
+Move 5
+0.464183 
+Move 6
+1.37947 
+Move 7
+2.84763 
+Move 8
+4.18735 
+Terminated
+Average Rol
+0 1.6688 1.0051 0.898557 2.4273 0 0 0 0 0 
+Discounted return = -1.51086, average = -1.37345
+Undiscounted return = 0, average = 5
+Starting run 3 with 1024 simulations... 
+Move 0
+0.23528 
+Move 1
+0.391591 
+Move 2
+0.828342 
+Move 3
+1.54749 
+Move 4
+1.13 
+Move 5
+0.357748 
+Move 6
+0.348655 
+Move 7
+0.464365 
+Move 8
+0.59558 
+Move 9
+0.512434 
+Move 10
+0.628328 
+Move 11
+0.323234 
+Move 12
+0.450526 
+Move 13
+0.437255 
+Move 14
+-0.141968 
+Move 15
+-0.487782 
+Move 16
+-0.31007 
+Move 17
+-0.148068 
+Move 18
+1.31226 
+Move 19
+3.28718 
+Move 20
+4.37238 
+Terminated
+Average Rol
+0 1.0212 0.700293 0.569426 0.92117 0 0 0 0 0 
+Discounted return = 16.8633, average = 4.70548
+Undiscounted return = 30, average = 13.3333
+Starting run 4 with 1024 simulations... 
+Move 0
+0.141464 
+Move 1
+0.159834 
+Move 2
+0.160015 
+Move 3
+0.179312 
+Move 4
+0.21569 
+Move 5
+0.298464 
+Move 6
+0.0125371 
+Move 7
+0.0871563 
+Move 8
+0.191012 
+Move 9
+0.321305 
+Move 10
+0.328347 
+Move 11
+0.499847 
+Move 12
+0.583356 
+Move 13
+0.353684 
+Move 14
+0.279783 
+Move 15
+0.863979 
+Move 16
+1.49524 
+Move 17
+3.46296 
+Move 18
+4.77528 
+Terminated
+Average Rol
+0 0.816938 0.623968 0.563153 2.52193 0 0 0 0 0 
+Discounted return = 6.30635, average = 5.1057
+Undiscounted return = 10, average = 12.5
+Starting run 5 with 1024 simulations... 
+Move 0
+0.131563 
+Move 1
+0.187412 
+Move 2
+0.356137 
+Move 3
+0.336776 
+Move 4
+0.551706 
+Move 5
+0.478136 
+Move 6
+0.191633 
+Move 7
+0.286131 
+Move 8
+0.520339 
+Move 9
+0.603578 
+Move 10
+0.65019 
+Move 11
+0.611499 
+Move 12
+0.566767 
+Move 13
+0.358702 
+Move 14
+0.601349 
+Move 15
+0.670873 
+Move 16
+1.08263 
+Move 17
+0.839024 
+Move 18
+1.06903 
+Move 19
+1.57795 
+Move 20
+3.24428 
+Move 21
+4.88152 
+Terminated
+Average Rol
+0 1.236 0.837577 0.734693 3.65658 0 0 0 0 0 
+Discounted return = -4.33219, average = 3.21812
+Undiscounted return = 0, average = 10
+Simulations = 1024
+Runs = 5
+Undiscounted return = 10 +- 4.89898
+Discounted return = 3.21812 +- 3.43476
+Time = 0.261301
+Starting run 1 with 2048 simulations... 
+Move 0
+0.0473286 
+Move 1
+-0.161204 
+Move 2
+-0.240984 
+Move 3
+0.0134605 
+Move 4
+-0.218202 
+Move 5
+-1.11501 
+Move 6
+-0.67512 
+Move 7
+-0.141082 
+Move 8
+0.181141 
+Move 9
+1.4204 
+Move 10
+3.05813 
+Move 11
+4.60886 
+Terminated
+Average Rol
+0 0.600598 0.459706 0.112189 1.53669 0 0 0 0 0 
+Discounted return = 5.688, average = 5.688
+Undiscounted return = 10, average = 10
+Starting run 2 with 2048 simulations... 
+Move 0
+0.044097 
+Move 1
+0.104364 
+Move 2
+0.15461 
+Move 3
+0.19825 
+Move 4
+0.0378248 
+Move 5
+0.368339 
+Move 6
+0.674227 
+Move 7
+0.551087 
+Move 8
+0.731481 
+Move 9
+0.492882 
+Move 10
+0.480232 
+Move 11
+0.783189 
+Move 12
+1.24714 
+Move 13
+1.39407 
+Move 14
+1.08229 
+Move 15
+1.89281 
+Move 16
+3.67091 
+Move 17
+4.37896 
+Terminated
+Average Rol
+0 0.888518 0.864526 0.672171 1.47225 1.27164 0 0 0 0 
+Discounted return = 2.68042, average = 4.18421
+Undiscounted return = 10, average = 10
+Starting run 3 with 2048 simulations... 
+Move 0
+-0.0411696 
+Move 1
+0.056606 
+Move 2
+0.164878 
+Move 3
+0.122634 
+Move 4
+0.178994 
+Move 5
+0.131534 
+Move 6
+-0.362723 
+Move 7
+-0.280771 
+Move 8
+-0.449392 
+Move 9
+-0.365171 
+Move 10
+-0.220589 
+Move 11
+-0.253266 
+Move 12
+-0.397201 
+Move 13
+-0.137981 
+Move 14
+0.0721105 
+Move 15
+0.0106939 
+Move 16
+-0.38123 
+Move 17
+0.114039 
+Move 18
+0.275763 
+Move 19
+0.507808 
+Move 20
+1.40435 
+Move 21
+3.24333 
+Move 22
+4.62814 
+Terminated
+Average Rol
+0 0.196147 0.334434 0.0777877 0.803974 0 0 0 0 0 
+Discounted return = -2.45267, average = 1.97192
+Undiscounted return = 0, average = 6.66667
+Starting run 4 with 2048 simulations... 
+Move 0
+0.0981347 
+Move 1
+-0.228017 
+Move 2
+-0.0397407 
+Move 3
+-0.00984599 
+Move 4
+-0.310616 
+Move 5
+-0.558617 
+Move 6
+-1.25311 
+Move 7
+-0.714583 
+Move 8
+-0.768 
+Move 9
+-0.49821 
+Move 10
+-0.566442 
+Move 11
+-0.398631 
+Move 12
+-0.208702 
+Move 13
+0.000379985 
+Move 14
+-0.0819856 
+Move 15
+0.493651 
+Move 16
+1.76269 
+Move 17
+3.03414 
+Move 18
+4.32798 
+Terminated
+Average Rol
+0 0.341353 0.215886 -0.0484001 0.93636 -1.78175 0 0 0 0 
+Discounted return = 3.97214, average = 2.47197
+Undiscounted return = 10, average = 7.5
+Starting run 5 with 2048 simulations... 
+Move 0
+0.152842 
+Move 1
+-0.129385 
+Move 2
+-0.356603 
+Move 3
+-0.30332 
+Move 4
+-0.157185 
+Move 5
+0.0523718 
+Move 6
+-1.7903 
+Move 7
+-1.22092 
+Move 8
+-0.546726 
+Move 9
+-0.486545 
+Move 10
+-0.599854 
+Move 11
+-0.632694 
+Move 12
+-0.485045 
+Move 13
+-0.380228 
+Move 14
+-0.395305 
+Move 15
+-0.30569 
+Move 16
+-0.252718 
+Move 17
+-0.360057 
+Move 18
+-0.345914 
+Move 19
+-0.404787 
+Move 20
+-0.366277 
+Move 21
+-0.409411 
+Move 22
+-0.344758 
+Move 23
+-0.116899 
+Move 24
+0.0692341 
+Move 25
+0.406481 
+Move 26
+-0.00505181 
+Move 27
+0.272224 
+Move 28
+0.59923 
+Move 29
+1.74996 
+Move 30
+3.56495 
+Move 31
+4.20798 
+Terminated
+Average Rol
+0 -0.00098047 -0.0380918 -0.20547 0.458438 0.0435688 0 0 0 0 
+Discounted return = 4.81296, average = 2.94017
+Undiscounted return = 20, average = 10
+Simulations = 2048
+Runs = 5
+Undiscounted return = 10 +- 2.82843
+Discounted return = 2.94017 +- 1.28488
+Time = 0.439556
+Starting run 1 with 4096 simulations... 
+Move 0
+0.0177698 
+Move 1
+0.162987 
+Move 2
+0.169603 
+Move 3
+0.202681 
+Move 4
+0.213079 
+Move 5
+0.239454 
+Move 6
+0.54603 
+Move 7
+0.431841 
+Move 8
+0.126364 
+Move 9
+0.241329 
+Move 10
+0.218899 
+Move 11
+0.221155 
+Move 12
+0.492961 
+Move 13
+0.807725 
+Move 14
+1.89621 
+Move 15
+3.17594 
+Move 16
+4.61908 
+Terminated
+Average Rol
+0 1.04889 0.881807 0.457348 0.50438 0.486515 0.130185 0 0 0 
+Discounted return = 11.3846, average = 11.3846
+Undiscounted return = 20, average = 20
+Starting run 2 with 4096 simulations... 
+Move 0
+-0.0133364 
+Move 1
+0.756454 
+Move 2
+0.724094 
+Move 3
+0.349444 
+Move 4
+0.0779933 
+Move 5
+0.113538 
+Move 6
+0.119007 
+Move 7
+0.188862 
+Move 8
+0.477712 
+Move 9
+0.661548 
+Move 10
+-0.266641 
+Move 11
+1.72249 
+Move 12
+3.44184 
+Move 13
+4.12366 
+Terminated
+Average Rol
+0 0.990013 0.742707 0.439008 0.544357 0.656243 0.187789 0 0 0 
+Discounted return = 13.7072, average = 12.5459
+Undiscounted return = 20, average = 20
+Starting run 3 with 4096 simulations... 
+Move 0
+0.0539699 
+Move 1
+0.0986371 
+Move 2
+0.192669 
+Move 3
+0.106772 
+Move 4
+0.0930094 
+Move 5
+0.166259 
+Move 6
+0.0389258 
+Move 7
+0.420548 
+Move 8
+0.112853 
+Move 9
+0.0948426 
+Move 10
+0.15946 
+Move 11
+0.252039 
+Move 12
+0.572346 
+Move 13
+1.99849 
+Move 14
+3.70895 
+Move 15
+4.49194 
+Terminated
+Average Rol
+0 1.2116 0.713401 0.364447 0.466052 0.82774 0 0 0 0 
+Discounted return = 11.6163, average = 12.236
+Undiscounted return = 20, average = 20
+Starting run 4 with 4096 simulations... 
+Move 0
+0.165343 
+Move 1
+0.174475 
+Move 2
+0.140476 
+Move 3
+0.530892 
+Move 4
+0.540467 
+Move 5
+0.304853 
+Move 6
+0.670192 
+Move 7
+0.978169 
+Move 8
+0.930026 
+Move 9
+2.38379 
+Move 10
+3.39594 
+Move 11
+4.63051 
+Terminated
+Average Rol
+0 1.2888 1.12931 0.663266 0.865737 0.84197 0.426642 0 0 0 
+Discounted return = 20.8164, average = 14.3811
+Undiscounted return = 30, average = 22.5
+Starting run 5 with 4096 simulations... 
+Move 0
+0.0690841 
+Move 1
+0.68684 
+Move 2
+0.642148 
+Move 3
+0.534986 
+Move 4
+0.153851 
+Move 5
+0.0347583 
+Move 6
+0.10353 
+Move 7
+0.272053 
+Move 8
+0.203639 
+Move 9
+0.649852 
+Move 10
+0.458466 
+Move 11
+0.905135 
+Move 12
+2.36947 
+Move 13
+3.75345 
+Move 14
+4.59227 
+Terminated
+Average Rol
+0 1.47668 0.96698 0.564584 0.576515 0.663896 0.0606185 0 0 0 
+Discounted return = 2.60549, average = 12.026
+Undiscounted return = 10, average = 20
+Simulations = 4096
+Runs = 5
+Undiscounted return = 20 +- 2.82843
+Discounted return = 12.026 +- 2.60325
+Time = 0.572487
