@@ -20,8 +20,8 @@ MCTS::PARAMS::PARAMS()
     NumSimulations(1000),
     NumStartStates(1000),
     UseTransforms(true),
-    NumTransforms(0),
-    MaxAttempts(0),
+    NumTransforms(1000),
+    MaxAttempts(1000),
     ExpandCount(1),
     ExplorationConstant(1),
     UseRave(false),
@@ -262,7 +262,7 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
             {
                 delayedReward = Rollout(state);
                 //delayedReward = 20;
-                if (num_roll == 0)
+                /*if (num_roll == 0)
                     av_move = delayedReward;
                 else
                     av_move = (delayedReward - av_move)/(num_roll+1) + av_move;
@@ -276,7 +276,7 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
                     ave_rol[a] = delayedReward;
                 else
                     ave_rol[a] = (delayedReward - ave_rol[a])/(num_so_far[a]+1) +ave_rol[a];
-                num_so_far[a]++;
+                num_so_far[a]++;*/
             }
             else if (Params.heur==1)
                 delayedReward = 0;

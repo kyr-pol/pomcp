@@ -63,8 +63,8 @@ void EXPERIMENT::Run()
         int action = mcts.SelectAction();
         terminal = Real.Step(*state, action, observation, reward);
         
-        cout << "Move " << t << endl;
-        cout << mcts.av_move << " " << endl;
+       // cout << "Move " << t << endl;
+        //cout << mcts.av_move << " " << endl;
         
         Results.Reward.Add(reward);
         undiscountedReturn += reward;
