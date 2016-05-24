@@ -46,14 +46,14 @@ MCTS::MCTS(const SIMULATOR& simulator, const PARAMS& params)
     for (int i = 0; i < Params.NumStartStates; i++)
         Root->Beliefs().AddSample(Simulator.CreateStartState());
     
-    std::ifstream file("q_val.csv");
+    std::ifstream file("val.csv");
     int row = 0;
     while (!file.eof())
     {
         file >> data[row];
         row ++;
     }
-    std::ifstream file2("values.csv");
+    std::ifstream file2("q_val.csv");
     int row2 = 0;
     while (!file2.eof())
     {
