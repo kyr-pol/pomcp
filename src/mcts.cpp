@@ -287,8 +287,10 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
                 //delayedReward = 40;
             else if (Params.heur==2)
                 // MDP
+            {
                 delayedReward = Simulator.value(state);
                 cout << "The dealyed reward is: " << delayedReward << endl;
+            }
                 //delayedReward = 60;
             else if (Params.heur = 3)
                 //QMDP doesn't work for battleship
