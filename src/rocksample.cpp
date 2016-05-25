@@ -134,6 +134,7 @@ int ROCKSAMPLE::state2ind(STATE& state) const
     
     if (x == 7)
         index = 12544;
+    cout << "The index i am sending is: " << index << endl;
     return index;
     
 }
@@ -163,9 +164,14 @@ int ROCKSAMPLE::qa2ind(STATE& state,int a) const
 }
 
 
-float ROCKSAMPLE::value(STATE& state) const
+
+float ROCKSAMPLE::value(STATE& state, float * data) const
 {
-    return data[state2ind(state)];
+    
+    int index = state2ind(state);
+    float val = data[index];
+    //cout << "Index: " << index << "value: " << data[index] << endl;
+    return val;
 }
 
 float ROCKSAMPLE::value2(STATE& state,int action) const

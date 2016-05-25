@@ -41,7 +41,7 @@ void SIMULATOR::Validate(const STATE& state) const
 { 
 }
 
-float SIMULATOR::value(STATE& state) const
+float SIMULATOR::value(STATE& state, float * data) const
 {
 }
 

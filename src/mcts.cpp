@@ -46,13 +46,17 @@ MCTS::MCTS(const SIMULATOR& simulator, const PARAMS& params)
     for (int i = 0; i < Params.NumStartStates; i++)
         Root->Beliefs().AddSample(Simulator.CreateStartState());
     
+    //cout << "We are here" << endl;
+    
     std::ifstream file("val.csv");
     int row = 0;
     while (!file.eof())
     {
         file >> data[row];
+        //cout << Simulator.data[row] << endl;
         row ++;
     }
+    //Simulator.get_data(data);
     std::ifstream file2("q_val.csv");
     int row2 = 0;
     while (!file2.eof())
@@ -65,6 +69,7 @@ MCTS::MCTS(const SIMULATOR& simulator, const PARAMS& params)
         num_so_far[i] = 0;
         ave_rol[i] = 0;
     }
+    //cout << "Not my fault here" << endl;
 
 }
 
@@ -242,6 +247,7 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
 
     if (Params.Verbose >= 3)
     {
+        cout << "This is in simulateQ  " << endl;
         Simulator.DisplayAction(action, cout);
         Simulator.DisplayObservation(state, observation, cout);
         Simulator.DisplayReward(immediateReward, cout);
@@ -280,10 +286,13 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
             }
             else if (Params.heur==1)
                 delayedReward = 0;
-                //delayedReward = 40;
+                //delayedReward = 30;
             else if (Params.heur==2)
                 // MDP
-                delayedReward = Simulator.value(state);
+            {
+                delayedReward = Simulator.value(state,data);
+                //cout << "The delayed reward is: " << delayedReward << endl;
+            }
                 //delayedReward = 60;
             else if (Params.heur == 3)
                 //QMDP doesn't work for battleship
