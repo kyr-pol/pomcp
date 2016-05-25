@@ -170,7 +170,7 @@ float ROCKSAMPLE::value(STATE& state, float * data) const
     
     int index = state2ind(state);
     float val = data[index];
-    cout << "Index: " << index << "value: " << data[index] << endl;
+    //cout << "Index: " << index << "value: " << data[index] << endl;
     return val;
 }
 

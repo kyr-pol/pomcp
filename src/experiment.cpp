@@ -133,10 +133,10 @@ void EXPERIMENT::Run()
             history.Add(action, observation);
         }
     }
-    cout << "Average Rol" <<endl;
-    for (int k=0;k<10;k++)
-        cout << mcts.ave_rol[k] << " ";
-    cout << endl;
+   // cout << "Average Rol" <<endl;
+   // for (int k=0;k<10;k++)
+   //     cout << mcts.ave_rol[k] << " ";
+   // cout << endl;
 
     Results.Time.Add(timer.elapsed());
     Results.UndiscountedReturn.Add(undiscountedReturn);
