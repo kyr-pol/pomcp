@@ -285,7 +285,7 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
                 // MDP
                 delayedReward = Simulator.value(state);
                 //delayedReward = 60;
-            else if (Params.heur = 3)
+            else if (Params.heur == 3)
                 //QMDP doesn't work for battleship
                 delayedReward = value2;
                 //delayedReward = 80;
