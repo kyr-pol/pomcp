@@ -364,7 +364,7 @@ void BATTLESHIP::UnmarkShip(BATTLESHIP_STATE& bsstate, const SHIP& ship) const
     }
 }
 
-float BATTLESHIP::value(STATE& ostate) const
+float BATTLESHIP::value(STATE& ostate, float * data) const
 {
     const BATTLESHIP_STATE& state = safe_cast<const BATTLESHIP_STATE&>(ostate);
     

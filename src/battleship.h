@@ -51,7 +51,7 @@ public:
     virtual void DisplayState(const STATE& state, std::ostream& ostr) const;
     virtual void DisplayObservation(const STATE& state, int observation, std::ostream& ostr) const;
     virtual void DisplayAction(int action, std::ostream& ostr) const;
-    virtual float value(STATE& state) const;
+    virtual float value(STATE& state, float * data) const;
     virtual float value2(STATE& state,int action) const;
 
 
