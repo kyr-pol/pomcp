@@ -53,8 +53,10 @@ MCTS::MCTS(const SIMULATOR& simulator, const PARAMS& params)
     while (!file.eof())
     {
         file >> data[row];
+        //cout << Simulator.data[row] << endl;
         row ++;
     }
+    //Simulator.get_data(data);
     std::ifstream file2("q_val.csv");
     int row2 = 0;
     while (!file2.eof())
@@ -243,7 +245,7 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
     assert(observation >= 0 && observation < Simulator.GetNumObservations());
     History.Add(action, observation);
 
-    if (Params.Verbose >= 0)
+    if (Params.Verbose >= 3)
     {
         cout << "This is in simulateQ  " << endl;
         Simulator.DisplayAction(action, cout);
@@ -288,11 +290,11 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
             else if (Params.heur==2)
                 // MDP
             {
-                delayedReward = Simulator.value(state);
-                cout << "The dealyed reward is: " << delayedReward << endl;
+                delayedReward = Simulator.value(state,data);
+                //cout << "The delayed reward is: " << delayedReward << endl;
             }
                 //delayedReward = 60;
-            else if (Params.heur = 3)
+            else if (Params.heur == 3)
                 //QMDP doesn't work for battleship
                 delayedReward = value2;
                 //delayedReward = 80;

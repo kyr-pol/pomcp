@@ -50,7 +50,7 @@ public:
     virtual void DisplayObservation(const STATE& state, int observation, std::ostream& ostr) const;
     virtual void DisplayAction(int action, std::ostream& ostr) const;
     
-    virtual float value(STATE& state) const;
+    virtual float value(STATE& state,float * data) const;
     virtual float value2(STATE& state,int action) const;
     float data[12545];
     float data2[12544 * 6 + 1];

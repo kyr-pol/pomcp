@@ -16,6 +16,8 @@ class STATE : public MEMORY_OBJECT
 class SIMULATOR
 {
 public:
+    float  data[12545];
+    float  data2[12544 * 6 +1];
 
     struct KNOWLEDGE
     {
@@ -33,6 +35,7 @@ public:
         int TreeLevel;
         int SmartTreeCount;
         double SmartTreeValue;
+
         
         int Level(int phase) const
         {
@@ -85,7 +88,7 @@ public:
     // Create new state and copy argument (must be same type)
     virtual STATE* Copy(const STATE& state) const = 0;
     
-    virtual float value(STATE& state) const;
+    virtual float value(STATE& state, float * data) const;
     virtual float value2(STATE& state,int action) const;
     
     // Sanity check
