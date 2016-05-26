@@ -134,7 +134,7 @@ int ROCKSAMPLE::state2ind(STATE& state) const
     
     if (x == 7)
         index = 12544;
-    cout << "The index i am sending is: " << index << endl;
+    //cout << "The index i am sending is: " << index << endl;
     return index;
     
 }
