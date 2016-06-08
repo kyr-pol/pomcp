@@ -27,6 +27,7 @@ public:
         double RaveConstant;
         bool DisableTree;
         int heur;
+        float s_time_elap;
         float mytime;
     };
 

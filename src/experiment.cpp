@@ -63,7 +63,7 @@ void EXPERIMENT::Run()
         int action = mcts.SelectAction();
         terminal = Real.Step(*state, action, observation, reward);
         
-       // cout << "Move " << t << endl;
+        cout << "Move " << t << endl;
         //cout << mcts.av_move << " " << endl;
         
         Results.Reward.Add(reward);
@@ -86,7 +86,10 @@ void EXPERIMENT::Run()
         }
         outOfParticles = !mcts.Update(action, observation, reward);
         if (outOfParticles)
+        {
+            cout << "Out of p " << endl;
             break;
+        }
 
         if (timer.elapsed() > ExpParams.TimeOut)
         {
@@ -169,8 +172,10 @@ void EXPERIMENT::DiscountedReturn()
     OutputFile << "Simulations\tRuns\tUndiscounted return\tUndiscounted error\tDiscounted return\tDiscounted error\tTime\n";
 
     SearchParams.MaxDepth = Simulator.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
+    //SearchParams.MaxDepth = 200;
     ExpParams.SimSteps = Simulator.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
     ExpParams.NumSteps = Real.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
+    //ExpParams.NumSteps = 200;
 
     for (int i = ExpParams.MinDoubles; i <= ExpParams.MaxDoubles; i++)
     {

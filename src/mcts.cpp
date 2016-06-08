@@ -29,6 +29,7 @@ MCTS::PARAMS::PARAMS()
     RaveConstant(0.01),
     DisableTree(false),
     heur(0),
+    s_time_elap(0.0),
     mytime(1)
 {
 }
@@ -180,6 +181,7 @@ void MCTS::UCTSearch()
     //for (int n = 0; n < Params.NumSimulations; n++)
     while (n < Params.NumSimulations)
     {
+        Params.s_time_elap = timer.elapsed();
         STATE* state = Root->Beliefs().CreateSample(Simulator);
         Simulator.Validate(*state);
         Status.Phase = SIMULATOR::STATUS::TREE;
@@ -266,39 +268,49 @@ double MCTS::SimulateQ(STATE& state, QNODE& qnode, int action)
         else
             if (Params.heur==0)
             {
-                delayedReward = Rollout(state);
-                //delayedReward = 20;
-                /*if (num_roll == 0)
-                    av_move = delayedReward;
+                if (Params.s_time_elap < Params.mytime/2)
+                    delayedReward = 0;
                 else
-                    av_move = (delayedReward - av_move)/(num_roll+1) + av_move;
-                num_roll++;
-                
-                
-                
-                int a =(int) TreeDepth;
-                if (a<0) a = 0;
-                if (num_so_far[a] < 0.2)
-                    ave_rol[a] = delayedReward;
-                else
-                    ave_rol[a] = (delayedReward - ave_rol[a])/(num_so_far[a]+1) +ave_rol[a];
-                num_so_far[a]++;*/
+                    delayedReward = Rollout(state);
             }
             else if (Params.heur==1)
-                delayedReward = 0;
-                //delayedReward = 30;
+            {
+                if (Params.s_time_elap < Params.mytime*3/4)
+                    delayedReward = 0;
+                else
+                    delayedReward = Rollout(state);
+            }
             else if (Params.heur==2)
                 // MDP
             {
-                delayedReward = Simulator.value(state,data);
-                //cout << "The delayed reward is: " << delayedReward << endl;
+                if (Params.s_time_elap < Params.mytime/2)
+                    delayedReward = 0;
+                else
+                    delayedReward = Simulator.value(state,data) / 5.0;
             }
                 //delayedReward = 60;
-            else if (Params.heur == 3)
-                //QMDP doesn't work for battleship
-                delayedReward = value2;
-                //delayedReward = 80;
-        
+            else if (Params.heur==3)
+                // MDP
+            {
+                if (Params.s_time_elap < Params.mytime*3/4)
+                    delayedReward = 0;
+                else
+                    delayedReward = Simulator.value(state,data) / 5.0;
+            }
+            else if (Params.heur==4)
+            {
+                if (Params.s_time_elap < Params.mytime/2)
+                    delayedReward = 0;
+                else
+                    delayedReward = Simulator.value(state,data);
+            }
+            else if (Params.heur==5)
+            {
+                if (Params.s_time_elap < Params.mytime*3/4)
+                    delayedReward = 0;
+                else
+                    delayedReward = Simulator.value(state,data);
+            }
         TreeDepth--;
     }
 
